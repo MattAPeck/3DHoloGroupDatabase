@@ -16,7 +16,7 @@ Your Selection: '''
 
 
 def prompt_add_data():
-    gmaps = googlemaps.Client(key='AIzaSyD166DaA9hYm7HaES8a8OePA4R9htLSmWQ')
+    gmaps = googlemaps.Client(key=)
     MostUsedSentenceHistoryId = Database.get_mostusedid()
     for data in MostUsedSentenceHistoryId:
         print(data)  # For testing purposes. Remove upon full implementation.
